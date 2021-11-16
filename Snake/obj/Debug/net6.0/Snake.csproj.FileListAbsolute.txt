@@ -1,0 +1,14 @@
+D:\GIT\Snake_GB_OOP\Snake\bin\Debug\net6.0\Snake.exe
+D:\GIT\Snake_GB_OOP\Snake\bin\Debug\net6.0\Snake.deps.json
+D:\GIT\Snake_GB_OOP\Snake\bin\Debug\net6.0\Snake.runtimeconfig.json
+D:\GIT\Snake_GB_OOP\Snake\bin\Debug\net6.0\Snake.dll
+D:\GIT\Snake_GB_OOP\Snake\bin\Debug\net6.0\ref\Snake.dll
+D:\GIT\Snake_GB_OOP\Snake\bin\Debug\net6.0\Snake.pdb
+D:\GIT\Snake_GB_OOP\Snake\obj\Debug\net6.0\Snake.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT\Snake_GB_OOP\Snake\obj\Debug\net6.0\Snake.AssemblyInfoInputs.cache
+D:\GIT\Snake_GB_OOP\Snake\obj\Debug\net6.0\Snake.AssemblyInfo.cs
+D:\GIT\Snake_GB_OOP\Snake\obj\Debug\net6.0\Snake.csproj.CoreCompileInputs.cache
+D:\GIT\Snake_GB_OOP\Snake\obj\Debug\net6.0\Snake.dll
+D:\GIT\Snake_GB_OOP\Snake\obj\Debug\net6.0\ref\Snake.dll
+D:\GIT\Snake_GB_OOP\Snake\obj\Debug\net6.0\Snake.pdb
+D:\GIT\Snake_GB_OOP\Snake\obj\Debug\net6.0\Snake.genruntimeconfig.cache
