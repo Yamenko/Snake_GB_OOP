@@ -1,20 +1,16 @@
 ﻿// See https://aka.ms/new-console-template for more information
-static void Draw(byte x, byte y, char simb) 
-{
-    Console.SetCursorPosition(x, y);
-    Console.Write(simb);
-}
 
-byte x1 = 1;
-byte y1 = 3;
-char simb1 = '*';
-Draw(x1, y1, simb1);
+Snake.Point p1 = new Snake.Point();
+p1.x = 1;
+p1.y = 3;
+p1.simb = '*';
+p1.Draw();
 
-byte x2 = 4;
-byte y2 = 5;
-char simb2 = '#';
-Draw(x2, y2, simb2);
+Snake.Point p2 = new Snake.Point();
+p2.x = 4;
+p2.y = 5;
+p2.simb = '#';
+p2.Draw();
 
 
-
-Console.ReadLine();
+Console.ReadLine(); 

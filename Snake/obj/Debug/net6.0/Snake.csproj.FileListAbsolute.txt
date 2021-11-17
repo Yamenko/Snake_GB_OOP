@@ -12,3 +12,4 @@ D:\GIT\Snake_GB_OOP\Snake\obj\Debug\net6.0\Snake.dll
 D:\GIT\Snake_GB_OOP\Snake\obj\Debug\net6.0\ref\Snake.dll
 D:\GIT\Snake_GB_OOP\Snake\obj\Debug\net6.0\Snake.pdb
 D:\GIT\Snake_GB_OOP\Snake\obj\Debug\net6.0\Snake.genruntimeconfig.cache
+D:\GIT\Snake_GB_OOP\Snake\obj\Debug\net6.0\Snake.csproj.AssemblyReference.cache
