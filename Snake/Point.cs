@@ -8,11 +8,10 @@ namespace Snake
 {
     internal class Point
     {
-        
-        public byte x;
-        public byte y;
-        public char simb;
-        public Point (byte _x, byte _y, char _simb)
+        public Byte x;
+        public Byte y;
+        public Char simb;
+        public Point (Byte _x, Byte _y, Char _simb)
         {
             x = _x;
             y = _y;
