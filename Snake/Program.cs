@@ -1,15 +1,21 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using Snake;
+Console.SetBufferSize(150, 100);
 
-Snake.Point p1 = new Snake.Point(1, 3, '*');
+Point p1 = new Point(5, 3, '*');
 p1.Draw();
 
-Snake.Point p2 = new Snake.Point(4, 5, '#');
+Point p2 = new Point(4, 5, '#');
 p2.Draw();
 
-Snake.HorizontLine hline = new Snake.HorizontLine(5, 10, 8, '+');
-hline.Draw();
+HorizontLine uLine = new HorizontLine(1, 99, 1, '+');
+uLine.Draw();
+HorizontLine dLine = new HorizontLine(1, 99, 25, '+');
+dLine.Draw();
 
-Snake.VerticalLine vline = new Snake.VerticalLine(5, 10, 8, '0');
-vline.Draw();
+VerticalLine lLine = new VerticalLine(1, 25, 1, '+');
+lLine.Draw();
+VerticalLine rLine = new VerticalLine(1, 25, 99, '+');
+rLine.Draw();
 
 Console.ReadLine(); 
