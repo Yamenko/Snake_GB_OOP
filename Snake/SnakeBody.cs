@@ -2,7 +2,7 @@
 {
     internal class SnakeBody : Figura
     {
-        Direction direction;
+        static Direction direction;
         public SnakeBody(Point tail, byte length, Direction _direction)
         {
             direction = _direction;
@@ -25,12 +25,24 @@
             tail.Clear();
             head.Draw();
         }
+
         public Point GetNextPoint()
         {
             Point head = pLineList.Last();
             Point nextPoint = new Point(head);
             nextPoint.Move(1, direction);
             return nextPoint;
+        }
+
+        public void HandleKey(ConsoleKeyInfo key)
+        {
+            switch (key.Key)
+            {
+                case ConsoleKey.UpArrow: direction = Direction.UP; break;
+                case ConsoleKey.DownArrow: direction = Direction.DOWN ; break;
+                case ConsoleKey.LeftArrow: direction = Direction.LEFT ; break;
+                case ConsoleKey.RightArrow: direction = Direction.RIGHT ; break;
+            }
         }
     }
 }

@@ -13,9 +13,13 @@ Point p = new Point(4, 5, '*');
 SnakeBody snake = new SnakeBody(p, 5, Direction.RIGHT);
 snake.Draw();
 
-for (int i = 0; i < 10; i++)
+
+while (true)
 {
+    if (Console.KeyAvailable) 
+    {
+        snake.HandleKey(Console.ReadKey());
+    }
+    Thread.Sleep(100);
     snake.Move();
-    Thread.Sleep(200);
 }
-Console.ReadLine(); 
