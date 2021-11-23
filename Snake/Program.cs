@@ -13,4 +13,9 @@ Point p = new Point(4, 5, '*');
 SnakeBody snake = new SnakeBody(p, 5, Direction.RIGHT);
 snake.Draw();
 
+for (int i = 0; i < 10; i++)
+{
+    snake.Move();
+    Thread.Sleep(200);
+}
 Console.ReadLine(); 

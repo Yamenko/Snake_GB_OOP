@@ -31,10 +31,15 @@
 
         }
 
-            public void Draw()
+        public void Draw()
         {
             Console.SetCursorPosition(x, y);
             Console.Write(simb);
+        }
+        public void Clear()
+        {
+            simb = ' ';
+            Draw();
         }
     }
 }
