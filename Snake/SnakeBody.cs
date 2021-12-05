@@ -44,5 +44,20 @@
                 case ConsoleKey.RightArrow: direction = Direction.RIGHT ; break;
             }
         }
+        internal bool Eat(Point food) 
+        {
+            Point head = GetNextPoint();
+            if (head.isHit(food))
+            {
+                food.simb = head.simb;
+                food.Draw ();
+                pLineList.Add(food);
+                return true;
+            }
+            else 
+            {
+                return false;
+            }
+        }
     }
 }

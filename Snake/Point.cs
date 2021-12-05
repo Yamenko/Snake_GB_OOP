@@ -41,5 +41,10 @@
             simb = ' ';
             Draw();
         }
+
+        internal bool isHit(Point p) 
+        { 
+            return x == p.x && y == p.y;
+        }
     }
 }
